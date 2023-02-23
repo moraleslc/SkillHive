@@ -25,6 +25,6 @@ SkillHive believes that the skills of all can work together to build a better fu
   <li>Collboration</li>
 </ul>
 
-<h2 href="https://github.com/moraleslc/SkillHive/blob/main/Presentation/departmentPresentation_team11.pdf" align="center">
+<a href="https://github.com/moraleslc/SkillHive/blob/main/Presentation/departmentPresentation_team11.pdf" align="center">
     Learn more about the team and the project were are currently working on, clicking here.
-</h2>
+</a>
