@@ -8,9 +8,9 @@ default: &default
   adapter: mysql2
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  username: 
-  host:
-  password: 
+  username: bee
+  host: skillhive.mysql.database.azure.com
+  password: homdiv-juxxi7-pEjxoc
   database: IBMskillhive
 
 development:
