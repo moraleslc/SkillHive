@@ -18620,7 +18620,7 @@ textarea.form-control-lg {
   width: 120px;
   height: 102px;
   right: 300px;
-  top: 325px;
+  top: 300px;
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 300;
@@ -18629,4 +18629,56 @@ textarea.form-control-lg {
   /* identical to box height, or 255% */
   letter-spacing: -0.64px;
   color: #161616;
+}
+
+.Email-box {
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  right: 90px;
+  top: 420px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  letter-spacing: -0.64px;
+  background: #CAC5C4;
+  border: #CAC5C4;
+}
+
+.Password-box {
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  right: 90px;
+  top: 480px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  letter-spacing: -0.64px;
+  background: #CAC5C4;
+  border: #CAC5C4;
+}
+
+.Continue-button {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  letter-spacing: -0.64px;
+  color: #161616;
+  position: absolute;
+  width: 158px;
+  height: 50px;
+  right: 90px;
+  top: 540px;
+  background: #F8EBBD;
+  border: #F8EBBD;
 }

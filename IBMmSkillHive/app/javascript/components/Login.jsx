@@ -13,6 +13,15 @@ export default () => (
       <p className="SkillHive-name">SkillHive</p>
       <div className="SignIn-Box">
         <p className="SignIn-Text">Sign In</p>
+        <form>
+      <label>
+        <input type="email" name="email" placeholder=" Corporate Email" className="Email-box"/>
+      </label>
+      <label>
+        <input type="password" name="password" placeholder=" Password" className="Password-box"/>
+      </label>
+      <input type="submit" value="Continue" className="Continue-button"></input>
+    </form>
       </div>
     </div>
   );
