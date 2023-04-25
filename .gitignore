@@ -1,3 +1,7 @@
 
 .DS_Store
 .DS_Store
+IBMmSkillHive/config/credentials.yml.enc
+IBMmSkillHive/config/master.key
+IBMmSkillHive/tmp/*
+IBMmSkillHive/log/*
