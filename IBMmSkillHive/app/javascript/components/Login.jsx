@@ -11,5 +11,8 @@ export default () => (
       <img src="https://www.ibm.com/industries/resources/industry-city/assets/images/preloader-bee.png" className="IBM-bee" />
       <p className="IBM-name">IBM's</p>
       <p className="SkillHive-name">SkillHive</p>
+      <div className="SignIn-Box">
+        <p className="SignIn-Text">Sign In</p>
+      </div>
     </div>
   );

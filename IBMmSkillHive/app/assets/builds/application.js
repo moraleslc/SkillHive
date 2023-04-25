@@ -37372,7 +37372,7 @@
     backgroundColor: "#161616",
     width: "100vw",
     height: "100vh"
-  } }, /* @__PURE__ */ import_react.default.createElement("img", { src: "https://www.ibm.com/industries/resources/industry-city/assets/images/preloader-bee.png", className: "IBM-bee" }), /* @__PURE__ */ import_react.default.createElement("p", { className: "IBM-name" }, "IBM's"), /* @__PURE__ */ import_react.default.createElement("p", { className: "SkillHive-name" }, "SkillHive"));
+  } }, /* @__PURE__ */ import_react.default.createElement("img", { src: "https://www.ibm.com/industries/resources/industry-city/assets/images/preloader-bee.png", className: "IBM-bee" }), /* @__PURE__ */ import_react.default.createElement("p", { className: "IBM-name" }, "IBM's"), /* @__PURE__ */ import_react.default.createElement("p", { className: "SkillHive-name" }, "SkillHive"), /* @__PURE__ */ import_react.default.createElement("div", { className: "SignIn-Box" }, /* @__PURE__ */ import_react.default.createElement("p", { className: "SignIn-Text" }, "Sign In")));
 
   // app/javascript/routes/index.jsx
   var routes_default = /* @__PURE__ */ import_react2.default.createElement(BrowserRouter, null, /* @__PURE__ */ import_react2.default.createElement(Routes, null, /* @__PURE__ */ import_react2.default.createElement(Route, { path: "/", element: /* @__PURE__ */ import_react2.default.createElement(Login_default, null) })));

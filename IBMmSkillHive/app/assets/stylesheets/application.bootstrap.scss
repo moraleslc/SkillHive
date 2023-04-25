@@ -57,3 +57,32 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transform: rotate(44.89deg);
   }
+
+  .SignIn-Box{
+    position: absolute;
+    width: 515px;
+    height: 100vh;
+    right: 0px;
+    top: 0px;
+
+    background: #E5E0DF;
+  }
+
+  .SignIn-Text{
+    position: absolute;
+    width: 120px;
+    height: 102px;
+    right: 300px;
+    top: 325px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 102px;
+    /* identical to box height, or 255% */
+
+    letter-spacing: -0.64px;
+
+    color: #161616;
+  }
