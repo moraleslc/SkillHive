@@ -320,3 +320,1808 @@ Processing by LoginController#index as HTML
 Completed 200 OK in 154ms (Views: 140.4ms | ActiveRecord: 0.0ms | Allocations: 28322)
 
 
+Started GET "/" for 127.0.0.1 at 2023-04-24 19:58:48 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (73.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 466)
+  Rendered layout layouts/application.html.erb (Duration: 1142.0ms | Allocations: 144675)
+Completed 200 OK in 1165ms (Views: 1151.0ms | ActiveRecord: 0.0ms | Allocations: 151251)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:06:55 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 455.4ms | Allocations: 67875)
+Completed 200 OK in 456ms (Views: 455.9ms | Allocations: 68169)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:07:02 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2516)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2809)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:07:17 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 404.1ms | Allocations: 43633)
+Completed 200 OK in 405ms (Views: 404.6ms | Allocations: 43925)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:09:55 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 457.8ms | Allocations: 66432)
+Completed 200 OK in 463ms (Views: 460.3ms | Allocations: 66720)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:10:42 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 94.5ms | Allocations: 27329)
+Completed 200 OK in 95ms (Views: 95.1ms | Allocations: 27618)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:10:45 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2516)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 2805)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:11:06 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 85.5ms | Allocations: 27771)
+Completed 200 OK in 86ms (Views: 86.0ms | Allocations: 28059)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:12:41 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 435.7ms | Allocations: 68845)
+Completed 200 OK in 436ms (Views: 436.2ms | Allocations: 69133)
+
+
+Started GET "/api/v1/pokemon/25" for 127.0.0.1 at 2023-04-24 20:13:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/pokemon/25"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:13:46 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2437)
+Completed 200 OK in 5ms (Views: 5.1ms | Allocations: 2725)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:19:27 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 452.8ms | Allocations: 43204)
+Completed 200 OK in 458ms (Views: 455.3ms | Allocations: 43493)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:19:31 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2516)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 2805)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:19:48 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2509)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 2797)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:19:49 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2518)
+Completed 200 OK in 5ms (Views: 5.2ms | Allocations: 2810)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:21:05 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 92.1ms | Allocations: 27289)
+Completed 200 OK in 94ms (Views: 93.3ms | Allocations: 27577)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:21:07 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2511)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2799)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:21:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 341.1ms | Allocations: 43661)
+Completed 200 OK in 342ms (Views: 341.5ms | Allocations: 43949)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:21:40 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 2554)
+Completed 200 OK in 16ms (Views: 15.8ms | Allocations: 2842)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:21:52 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 342.3ms | Allocations: 43647)
+Completed 200 OK in 343ms (Views: 342.8ms | Allocations: 43935)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:21:55 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2515)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2803)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:24:07 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 104.3ms | Allocations: 26884)
+Completed 200 OK in 105ms (Views: 104.8ms | Allocations: 27172)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:25:57 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 583.7ms | Allocations: 69313)
+Completed 200 OK in 603ms (Views: 602.8ms | Allocations: 69602)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:26:37 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 418.2ms | Allocations: 68827)
+Completed 200 OK in 419ms (Views: 418.6ms | Allocations: 69115)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:30:12 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 354.1ms | Allocations: 43230)
+Completed 200 OK in 355ms (Views: 354.5ms | Allocations: 43518)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:30:15 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2514)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2802)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:31:58 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 399.3ms | Allocations: 44053)
+Completed 200 OK in 400ms (Views: 399.8ms | Allocations: 44341)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:32:10 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 359.7ms | Allocations: 43181)
+Completed 200 OK in 361ms (Views: 360.1ms | Allocations: 43469)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:32:12 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2503)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2792)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:32:24 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 374.3ms | Allocations: 45122)
+Completed 200 OK in 375ms (Views: 374.8ms | Allocations: 45411)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:32:26 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2524)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2812)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:32:50 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 353.7ms | Allocations: 45061)
+Completed 200 OK in 354ms (Views: 354.2ms | Allocations: 45349)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:33:52 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 93.8ms | Allocations: 27862)
+Completed 200 OK in 94ms (Views: 94.2ms | Allocations: 28150)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:35:06 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 344.3ms | Allocations: 43179)
+Completed 200 OK in 345ms (Views: 344.8ms | Allocations: 43467)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:35:30 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 348.0ms | Allocations: 43647)
+Completed 200 OK in 349ms (Views: 348.4ms | Allocations: 43936)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:37:19 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 328.4ms | Allocations: 43237)
+Completed 200 OK in 329ms (Views: 328.8ms | Allocations: 43525)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:37:49 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 330.0ms | Allocations: 43676)
+Completed 200 OK in 331ms (Views: 330.4ms | Allocations: 43965)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:39:51 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 87.6ms | Allocations: 27789)
+Completed 200 OK in 88ms (Views: 88.0ms | Allocations: 28077)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:47:05 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 483.1ms | Allocations: 67360)
+Completed 200 OK in 490ms (Views: 486.5ms | Allocations: 67648)
+
+
+Started GET "/images/Bee.svg" for 127.0.0.1 at 2023-04-24 20:47:05 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:47:41 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 386.8ms | Allocations: 43663)
+Completed 200 OK in 387ms (Views: 387.2ms | Allocations: 43952)
+
+
+Started GET "/images/Bee.svg" for 127.0.0.1 at 2023-04-24 20:47:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:48:29 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2523)
+Completed 200 OK in 5ms (Views: 5.1ms | Allocations: 2812)
+
+
+Started GET "/images/Bee.svg" for 127.0.0.1 at 2023-04-24 20:48:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:50:33 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 369.5ms | Allocations: 44118)
+Completed 200 OK in 370ms (Views: 369.9ms | Allocations: 44406)
+
+
+Started GET "/images/Bee.png" for 127.0.0.1 at 2023-04-24 20:50:33 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/Bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:52:14 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 434.4ms | Allocations: 44200)
+Completed 200 OK in 435ms (Views: 434.9ms | Allocations: 44488)
+
+
+Started GET "/Bee.svg" for 127.0.0.1 at 2023-04-24 20:52:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/Bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:53:56 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 380.9ms | Allocations: 44137)
+Completed 200 OK in 382ms (Views: 381.4ms | Allocations: 44426)
+
+
+Started GET "/Bee.png" for 127.0.0.1 at 2023-04-24 20:53:57 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/Bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:54:20 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 356.0ms | Allocations: 45065)
+Completed 200 OK in 357ms (Views: 356.5ms | Allocations: 45354)
+
+
+Started GET "/Bee.png" for 127.0.0.1 at 2023-04-24 20:54:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/Bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:54:41 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2515)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2803)
+
+
+Started GET "/Bee.png" for 127.0.0.1 at 2023-04-24 20:54:41 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/Bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:57:03 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 341.7ms | Allocations: 43678)
+Completed 200 OK in 342ms (Views: 342.1ms | Allocations: 43966)
+
+
+Started GET "/bee.png" for 127.0.0.1 at 2023-04-24 20:57:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:58:12 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 345.9ms | Allocations: 43608)
+Completed 200 OK in 347ms (Views: 346.4ms | Allocations: 43897)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:59:13 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 337.4ms | Allocations: 43220)
+Completed 200 OK in 338ms (Views: 337.9ms | Allocations: 43508)
+
+
+Started GET "/bee.png" for 127.0.0.1 at 2023-04-24 20:59:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.png"):
+  
+Started GET "/bee.png" for 127.0.0.1 at 2023-04-24 20:59:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 20:59:47 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 340.1ms | Allocations: 43223)
+Completed 200 OK in 341ms (Views: 340.6ms | Allocations: 43511)
+
+
+Started GET "/bee.svg" for 127.0.0.1 at 2023-04-24 20:59:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:01:32 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 384.7ms | Allocations: 43612)
+Completed 200 OK in 387ms (Views: 386.8ms | Allocations: 43900)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:02:07 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 2513)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 2802)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:02:33 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 375.1ms | Allocations: 44125)
+Completed 200 OK in 376ms (Views: 375.6ms | Allocations: 44414)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:03:02 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 404.5ms | Allocations: 45046)
+Completed 200 OK in 405ms (Views: 405.0ms | Allocations: 45335)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:03:27 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 2564)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 2852)
+
+
+Started GET "/bee.svg" for 127.0.0.1 at 2023-04-24 21:03:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:03:47 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 322.1ms | Allocations: 44113)
+Completed 200 OK in 323ms (Views: 322.5ms | Allocations: 44401)
+
+
+Started GET "/bee.svg" for 127.0.0.1 at 2023-04-24 21:03:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:05:24 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 438.0ms | Allocations: 42726)
+Completed 200 OK in 443ms (Views: 443.1ms | Allocations: 43014)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:05:54 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 2549)
+Completed 200 OK in 16ms (Views: 16.2ms | Allocations: 2837)
+
+
+Started GET "/bee.png" for 127.0.0.1 at 2023-04-24 21:05:54 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:07:19 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 344.6ms | Allocations: 44170)
+Completed 200 OK in 345ms (Views: 345.0ms | Allocations: 44458)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:07:49 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3151)
+Completed 200 OK in 18ms (Views: 17.8ms | Allocations: 3439)
+
+
+Started GET "/bee.png" for 127.0.0.1 at 2023-04-24 21:07:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:07:55 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2509)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2797)
+
+
+Started GET "/bee.png" for 127.0.0.1 at 2023-04-24 21:07:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/bee.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:11:11 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 468.8ms | Allocations: 45514)
+Completed 200 OK in 475ms (Views: 471.8ms | Allocations: 45802)
+
+
+Started GET "/abeja.png" for 127.0.0.1 at 2023-04-24 21:11:12 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abeja.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:12:29 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 393.9ms | Allocations: 44577)
+Completed 200 OK in 395ms (Views: 394.4ms | Allocations: 44865)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:12:30 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:32 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2515)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 2803)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:32 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2509)
+Completed 200 OK in 5ms (Views: 5.1ms | Allocations: 2797)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2536)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2825)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2512)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2800)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:34 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2535)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2823)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2508)
+Completed 200 OK in 5ms (Views: 5.0ms | Allocations: 2797)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2511)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2799)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2507)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2795)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2532)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2821)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:36 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2510)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2798)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:36 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:36 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2517)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2805)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:36 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:16:36 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2516)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 2804)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:16:36 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:18 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2513)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 2801)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:18 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2511)
+Completed 200 OK in 3ms (Views: 3.2ms | Allocations: 2799)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2526)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2814)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2516)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2804)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2521)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 2809)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2506)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2794)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2503)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2791)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2526)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2815)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2528)
+Completed 200 OK in 4ms (Views: 4.2ms | Allocations: 2817)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2514)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2802)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2529)
+Completed 200 OK in 4ms (Views: 4.2ms | Allocations: 2818)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2510)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2798)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2526)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 2815)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2544)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2833)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2528)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2816)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2508)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2796)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2519)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 2807)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2520)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 2808)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:17:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:19:04 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2534)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2822)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:19:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:19:06 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2522)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2810)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:19:06 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:19:07 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2504)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2792)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:19:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:19:07 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2531)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2819)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:19:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:01 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2520)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 2809)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:03 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2518)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2806)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:04 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2536)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2824)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:04 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2518)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2806)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:37 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2539)
+Completed 200 OK in 8ms (Views: 8.1ms | Allocations: 2827)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:37 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:38 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2530)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2818)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:38 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:38 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2522)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 2810)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:38 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:38 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2532)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2820)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2520)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2808)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2523)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2811)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2538)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2826)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2528)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2816)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2522)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2810)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2508)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 2796)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:40 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2536)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2825)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:21:58 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2542)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2831)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:21:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:22:26 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2542)
+Completed 200 OK in 5ms (Views: 5.0ms | Allocations: 2831)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:22:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:25:55 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2530)
+Completed 200 OK in 5ms (Views: 5.1ms | Allocations: 2818)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:25:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:30:26 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2530)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 2819)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:30:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:31:14 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2538)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2826)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:31:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:31:55 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2522)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2810)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:31:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:32:44 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2524)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 2812)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:32:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:32:45 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2536)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2824)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:32:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:32:45 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2533)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 2821)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:32:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:33:47 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 2517)
+Completed 200 OK in 23ms (Views: 20.2ms | Allocations: 2805)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:33:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:36:31 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2524)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 2812)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:36:31 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:36:32 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 2522)
+Completed 200 OK in 31ms (Views: 30.4ms | Allocations: 2811)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:36:33 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:36:50 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2532)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 2820)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:36:50 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2525)
+Completed 200 OK in 5ms (Views: 4.6ms | Allocations: 2813)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2516)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2804)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:22 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2522)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2811)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2538)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2826)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2521)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2809)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2524)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2812)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2524)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2812)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2524)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2812)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:23 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2525)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2813)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:24 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2516)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2804)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:37:24 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2522)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2810)
+
+
+Started GET "/abejacap.png" for 127.0.0.1 at 2023-04-24 21:37:24 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/abejacap.png"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:38:09 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (74.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 1010.8ms | Allocations: 72978)
+Completed 200 OK in 1025ms (Views: 1015.5ms | ActiveRecord: 0.0ms | Allocations: 78362)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:38:30 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 346.1ms | Allocations: 43185)
+Completed 200 OK in 347ms (Views: 346.6ms | ActiveRecord: 0.0ms | Allocations: 43482)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:38:44 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 422.5ms | Allocations: 44095)
+Completed 200 OK in 423ms (Views: 422.9ms | ActiveRecord: 0.0ms | Allocations: 44391)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:39:37 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2503)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2794)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:39:42 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 81.1ms | Allocations: 27896)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms | Allocations: 28191)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:40:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 83.5ms | Allocations: 27359)
+Completed 200 OK in 84ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 27650)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:40:39 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 81.9ms | Allocations: 28708)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms | Allocations: 28999)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:40:45 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 113.3ms | Allocations: 27808)
+Completed 200 OK in 114ms (Views: 113.6ms | ActiveRecord: 0.0ms | Allocations: 28099)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:40:56 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2505)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2796)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:00 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 78.9ms | Allocations: 27765)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms | Allocations: 28056)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:07 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 81.2ms | Allocations: 27315)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms | Allocations: 27606)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:10 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2507)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2798)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:11 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2512)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2807)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:12 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2518)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2810)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:12 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2501)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2793)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:21 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 79.4ms | Allocations: 28314)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms | Allocations: 28605)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:30 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 79.6ms | Allocations: 25768)
+Completed 200 OK in 80ms (Views: 80.1ms | ActiveRecord: 0.0ms | Allocations: 26059)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:42 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 140.0ms | Allocations: 27793)
+Completed 200 OK in 142ms (Views: 141.2ms | ActiveRecord: 0.0ms | Allocations: 28084)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:41:52 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 86.3ms | Allocations: 27313)
+Completed 200 OK in 87ms (Views: 86.7ms | ActiveRecord: 0.0ms | Allocations: 27604)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:42:02 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 79.9ms | Allocations: 27359)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.0ms | Allocations: 27650)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:42:11 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2511)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2802)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:42:13 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2513)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2804)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:42:15 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2519)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2810)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-24 21:42:18 -0600
+Processing by LoginController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 78.1ms | Allocations: 27350)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms | Allocations: 27641)
+
+

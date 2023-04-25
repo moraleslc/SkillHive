@@ -13,17 +13,23 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: uhxlZA8q1NSL3DInFOnX
+  host: containers-us-west-43.railway.app
+  port: 6257
+  database: railway
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
-  database: 
+  database: railway
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: 
+  database: railway_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is

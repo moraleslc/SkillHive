@@ -37368,15 +37368,11 @@
 
   // app/javascript/components/Login.jsx
   var import_react = __toESM(require_react());
-  var Login_default = () => /* @__PURE__ */ import_react.default.createElement("div", { className: "vw-100 vh-100 primary-color d-flex align-items-center justify-content-center" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "jumbotron jumbotron-fluid bg-transparent" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "container secondary-color" }, /* @__PURE__ */ import_react.default.createElement("h1", { className: "display-4" }, "Food Recipes"), /* @__PURE__ */ import_react.default.createElement("p", { className: "lead" }, "A curated list of recipes for the best homemade meal and delicacies."), /* @__PURE__ */ import_react.default.createElement("hr", { className: "my-4" }), /* @__PURE__ */ import_react.default.createElement(
-    Link,
-    {
-      to: "/recipes",
-      className: "btn btn-lg custom-button",
-      role: "button"
-    },
-    "View Recipes"
-  ))));
+  var Login_default = () => /* @__PURE__ */ import_react.default.createElement("div", { style: {
+    backgroundColor: "#161616",
+    width: "100vw",
+    height: "100vh"
+  } }, /* @__PURE__ */ import_react.default.createElement("img", { src: "https://www.ibm.com/industries/resources/industry-city/assets/images/preloader-bee.png", className: "IBM-bee" }), /* @__PURE__ */ import_react.default.createElement("p", { className: "IBM-name" }, "IBM's"), /* @__PURE__ */ import_react.default.createElement("p", { className: "SkillHive-name" }, "SkillHive"));
 
   // app/javascript/routes/index.jsx
   var routes_default = /* @__PURE__ */ import_react2.default.createElement(BrowserRouter, null, /* @__PURE__ */ import_react2.default.createElement(Routes, null, /* @__PURE__ */ import_react2.default.createElement(Route, { path: "/", element: /* @__PURE__ */ import_react2.default.createElement(Login_default, null) })));

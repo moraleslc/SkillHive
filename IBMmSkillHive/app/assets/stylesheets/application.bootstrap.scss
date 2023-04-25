@@ -1,35 +1,59 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+@import url('https://fonts.cdnfonts.com/css/ibm-plex-sans');
 
-.bg_primary-color {
-    background-color: #FFFFFF;
-  }
-  .primary-color {
-    background-color: #FFFFFF;
-  }
-  .bg_secondary-color {
-    background-color: #293241;
-  }
-  .secondary-color {
-    color: #293241;
-  }
-  .custom-button.btn {
-    background-color: #293241;
-    color: #FFF;
-    border: none;
-  }
-  .hero {
-    width: 100vw;
-    height: 50vh;
-  }
-  .hero img {
-    object-fit: cover;
-    object-position: top;
-    height: 100%;
+  .background-login{
+    background-color: #161616;
+    box-sizing: border-box;
     width: 100%;
-  }
-  .overlay {
     height: 100%;
-    width: 100%;
-    opacity: 0.4;
+  }
+
+  .IBM-name {
+    position: absolute;
+    width: 313px;
+    height: 102px;
+    left: 83px;
+    top: 439px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 102px;
+    /* identical to box height, or 85% */
+
+    letter-spacing: -0.64px;
+
+    color: #F5F5F5;
+  }
+
+  .SkillHive-name{
+    position: absolute;
+    width: 299px;
+    height: 102px;
+    left: 83px;
+    top: 558px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 102px;
+    /* identical to box height, or 128% */
+
+    letter-spacing: -0.64px;
+
+    color: #F5F5F5;
+  }
+
+  .IBM-bee{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: -20px;
+    top: 150 px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(44.89deg);
   }
