@@ -13,23 +13,27 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: uhxlZA8q1NSL3DInFOnX
-  host: containers-us-west-43.railway.app
-  port: 6257
-  database: railway
+  username: <%= Rails.application.credentials.database[:username] %>
+  password: <%= Rails.application.credentials.database[:password] %>
+  host: <%= Rails.application.credentials.database[:host] %>
+  port: <%= Rails.application.credentials.database[:port] %>
+  database: <%= Rails.application.credentials.database[:database] %>
   socket: /tmp/mysql.sock
 
 development:
+  <<: *default 
+  database: <%= Rails.application.credentials.database[:database] %>
+
+development:
   <<: *default
-  database: railway
+  database: <%= Rails.application.credentials.database[:database] %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: railway_test
+  database: <%= Rails.application.credentials.database[:database] %>_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
