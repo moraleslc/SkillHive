@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS IBMSkillHive;
+USE IBMSkillHive;
+CREATE TABLE IF NOT EXISTS Teams(
+    teamID VARCHAR(8),
+    name VARCHAR(25),
+    PRIMARY KEY(teamID)
+);
+CREATE TABLE IF NOT EXISTS Employees(
+    employeeID VARCHAR(8),
+    teamID VARCHAR(8),
+    email VARCHAR(255),
+    password VARCHAR(16),
+    PRIMARY KEY(employeeID),
+    FOREIGN KEY(teamID) REFERENCES Teams(teamID)
+);
+CREATE TABLE IF NOT EXISTS Certifications(
+    certificationID VARCHAR(8),
+    employeeID VARCHAR(8),
+    type VARCHAR (16),
+    PRIMARY KEY (certificationID),
+    FOREIGN KEY (employeeID) REFERENCES Employees (employeeID)
+);
