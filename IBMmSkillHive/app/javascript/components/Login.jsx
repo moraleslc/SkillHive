@@ -20,7 +20,9 @@ export default () => (
       <label>
         <input type="password" name="password" placeholder=" Password" className="Password-box"/>
       </label>
+      <Link to="/dashboard">
       <input type="submit" value="Continue" className="Continue-button"></input>
+      </Link>
     </form>
       </div>
     </div>

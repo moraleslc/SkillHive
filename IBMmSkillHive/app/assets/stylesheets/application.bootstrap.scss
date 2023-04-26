@@ -147,3 +147,31 @@
     border:#F8EBBD;
 
   }
+
+  .Menu {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0 px;
+    top: 100 px;
+    background: #D9D9D9;
+  }
+
+  .selectionBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 274px;
+    height: 50px;
+    left: 0px;
+    top: 100px;
+    background: #8F8B8B;
+
+  }
+
+  .unSelectionBox {
+    position: absolute;
+    width: 274px;
+    height: 50px;
+    left: 0px;
+    top: 150px;
+  }
