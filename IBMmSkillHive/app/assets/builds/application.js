@@ -1672,7 +1672,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect4(create, deps) {
+          function useEffect5(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -2454,7 +2454,7 @@
           exports.useContext = useContext3;
           exports.useDebugValue = useDebugValue2;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect4;
+          exports.useEffect = useEffect5;
           exports.useId = useId;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -2958,9 +2958,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React9 = require_react();
+          var React10 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React10.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4565,7 +4565,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React9.Children.forEach(props.children, function(child) {
+                  React10.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -13012,7 +13012,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React9.Component().refs;
+          var emptyRefsObject = new React10.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -35601,14 +35601,14 @@
   defineJQueryPlugin(Toast);
 
   // app/javascript/components/index.jsx
-  var import_react6 = __toESM(require_react());
+  var import_react7 = __toESM(require_react());
   var import_client = __toESM(require_client());
 
   // app/javascript/components/App.jsx
-  var import_react5 = __toESM(require_react());
+  var import_react6 = __toESM(require_react());
 
   // app/javascript/routes/index.jsx
-  var import_react4 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
 
   // node_modules/react-router-dom/dist/index.js
   var React2 = __toESM(require_react());
@@ -37375,7 +37375,7 @@
   } }, /* @__PURE__ */ import_react.default.createElement("img", { src: "https://www.ibm.com/industries/resources/industry-city/assets/images/preloader-bee.png", className: "IBM-bee" }), /* @__PURE__ */ import_react.default.createElement("p", { className: "IBM-name" }, "IBM's"), /* @__PURE__ */ import_react.default.createElement("p", { className: "SkillHive-name" }, "SkillHive"), /* @__PURE__ */ import_react.default.createElement("div", { className: "SignIn-Box" }, /* @__PURE__ */ import_react.default.createElement("p", { className: "SignIn-Text" }, "Sign In"), /* @__PURE__ */ import_react.default.createElement("form", null, /* @__PURE__ */ import_react.default.createElement("label", null, /* @__PURE__ */ import_react.default.createElement("input", { type: "email", name: "email", placeholder: " Corporate Email", className: "Email-box" })), /* @__PURE__ */ import_react.default.createElement("label", null, /* @__PURE__ */ import_react.default.createElement("input", { type: "password", name: "password", placeholder: " Password", className: "Password-box" })), /* @__PURE__ */ import_react.default.createElement(Link, { to: "/dashboard" }, /* @__PURE__ */ import_react.default.createElement("input", { type: "submit", value: "Continue", className: "Continue-button" })))));
 
   // app/javascript/components/Dashboard.jsx
-  var import_react3 = __toESM(require_react());
+  var import_react4 = __toESM(require_react());
 
   // app/javascript/components/NavBar.jsx
   var import_react2 = __toESM(require_react());
@@ -37384,25 +37384,42 @@
   }
   var NavBar_default = NavBar;
 
+  // app/javascript/components/TableauDashboard.jsx
+  var import_react3 = __toESM(require_react());
+  var TableauDashboard = () => {
+    (0, import_react3.useEffect)(() => {
+      const vizContainer = document.getElementById("tableauViz");
+      const vizUrl = "https://public.tableau.com/views/Beehive/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link";
+      const options = {
+        width: "100%",
+        height: "800px",
+        hideTabs: true
+      };
+      const viz = new window.tableau.Viz(vizContainer, vizUrl, options);
+    }, []);
+    return /* @__PURE__ */ import_react3.default.createElement("div", { id: "tableauViz", style: { margin: "0 auto", display: "block", width: "60vw", height: "40vw" } });
+  };
+  var TableauDashboard_default = TableauDashboard;
+
   // app/javascript/components/Dashboard.jsx
-  var Dashboard_default = () => /* @__PURE__ */ import_react3.default.createElement("div", { style: {
+  var Dashboard_default = () => /* @__PURE__ */ import_react4.default.createElement("div", { style: {
     backgroundColor: "#E5E0DF",
     width: "100vw",
     height: "100vh"
-  } }, /* @__PURE__ */ import_react3.default.createElement("div", { className: "Menu" }, /* @__PURE__ */ import_react3.default.createElement(NavBar_default, null)));
+  } }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "Menu" }, /* @__PURE__ */ import_react4.default.createElement(NavBar_default, null)), /* @__PURE__ */ import_react4.default.createElement("div", { className: "tableau-container" }, " ", /* @__PURE__ */ import_react4.default.createElement(TableauDashboard_default, null)));
 
   // app/javascript/routes/index.jsx
-  var routes_default = /* @__PURE__ */ import_react4.default.createElement(BrowserRouter, null, /* @__PURE__ */ import_react4.default.createElement(Routes, null, /* @__PURE__ */ import_react4.default.createElement(Route, { path: "/", element: /* @__PURE__ */ import_react4.default.createElement(Login_default, null) }), /* @__PURE__ */ import_react4.default.createElement(Route, { path: "/dashboard", element: /* @__PURE__ */ import_react4.default.createElement(Dashboard_default, null) })));
+  var routes_default = /* @__PURE__ */ import_react5.default.createElement(BrowserRouter, null, /* @__PURE__ */ import_react5.default.createElement(Routes, null, /* @__PURE__ */ import_react5.default.createElement(Route, { path: "/", element: /* @__PURE__ */ import_react5.default.createElement(Login_default, null) }), /* @__PURE__ */ import_react5.default.createElement(Route, { path: "/dashboard", element: /* @__PURE__ */ import_react5.default.createElement(Dashboard_default, null) })));
 
   // app/javascript/components/App.jsx
-  var App_default = (props) => /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, routes_default);
+  var App_default = (props) => /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, routes_default);
 
   // app/javascript/components/index.jsx
   document.addEventListener("turbo:load", () => {
     const root = (0, import_client.createRoot)(
       document.body.appendChild(document.createElement("div"))
     );
-    root.render(/* @__PURE__ */ import_react6.default.createElement(App_default, null));
+    root.render(/* @__PURE__ */ import_react7.default.createElement(App_default, null));
   });
 })();
 /*! Bundled license information:

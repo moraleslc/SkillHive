@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from './NavBar';
+import TableauDashboard from "./TableauDashboard";
 
 export default () => (
     <div style = {{
@@ -8,10 +9,12 @@ export default () => (
       width: "100vw",
       height: "100vh",
     }}>
-    
-  <div className="Menu">
+      
+    <div className="Menu">
 
-      <Navbar></Navbar> 
-  </div>
+        <Navbar></Navbar> 
+    </div>
+    
+    <div className="tableau-container"> <TableauDashboard/></div>
   </div>
 );

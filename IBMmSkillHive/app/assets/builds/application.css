@@ -18709,3 +18709,10 @@ textarea.form-control-lg {
   left: 0px;
   top: 150px;
 }
+
+.tableau-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
