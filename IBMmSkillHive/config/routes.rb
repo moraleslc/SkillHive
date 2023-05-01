@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'overview/index'
   get 'login/index'
   get 'dashboard/index'
   resources :dashboard 

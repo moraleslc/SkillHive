@@ -18716,3 +18716,91 @@ textarea.form-control-lg {
   align-items: center;
   height: 100%;
 }
+
+.background-s {
+  background: linear-gradient(106.37deg, #E5E0DF, #c6c6c6 51.55%, #E5E0DF);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.Glass {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  display: grid;
+  height: 90%;
+  width: 96%;
+  border-radius: 2rem;
+  background-color: var(--glass);
+  overflow: hidden;
+  grid-template-columns: 11rem auto 10rem;
+  grid-template-rows: 7rem auto;
+}
+
+.Glass > div:first-child {
+  background-color: #000000;
+  grid-column: 1/4;
+}
+
+.Welcome {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  padding-top: 1rem;
+  align-items: center;
+  transition: all 300ms ease;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 120;
+  font-size: 5vw; /* use viewport width to make the font size responsive */
+  line-height: 1.2; /* use a unitless value for line-height */
+  letter-spacing: -0.01em;
+  color: #F5F5F5;
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 1rem;
+  transition: all 300ms ease;
+  background-color: #D9D9D9;
+}
+
+.menu {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 300ms ease;
+  font-size: 20px;
+  font-weight: 10;
+  border-radius: 0.7rem;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #8F8B8B;
+  margin-left: 0;
+}
+
+.active::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: #808080;
+}
