@@ -2,19 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from '../components/NavBar';
 import TableauDashboard from "../components/TableauDashboard";
-
+import Sidebar from "../components/Sidebar";
 export default () => (
-    <div style = {{
-      backgroundColor:"#E5E0DF",
-      width: "100vw",
-      height: "100vh",
-    }}>
-      
-    <div className="Menu">
 
-        <Navbar></Navbar> 
-    </div>
+  <div className="background-s">
+    <div className="Glass">
+      <div className="Welcome">Dashboard</div>
+      <Sidebar/>
+      <div className="tableau-container"> <TableauDashboard/></div>
     
-    <div className="tableau-container"> <TableauDashboard/></div>
+      </div>
   </div>
 );

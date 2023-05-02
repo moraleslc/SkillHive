@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'teams/index'
+  get 'goals/show'
   get 'overview/index'
   get 'login/index'
   get 'dashboard/index'
