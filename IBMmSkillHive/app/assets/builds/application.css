@@ -18729,18 +18729,26 @@ textarea.form-control-lg {
 .Glass {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
   display: grid;
-  height: 90%;
-  width: 96%;
-  border-radius: 2rem;
-  background-color: var(--glass);
+  background-color: #E5E0DF;
   overflow: hidden;
-  grid-template-columns: 11rem auto 10rem;
+  height: 100%;
+  grid-template-columns: 15rem auto auto;
   grid-template-rows: 7rem auto;
+  height: 100vh;
 }
 
 .Glass > div:first-child {
   background-color: #000000;
   grid-column: 1/4;
+}
+
+.ProgressBarWrapper {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19rem;
 }
 
 .Welcome {
@@ -18820,68 +18828,6 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.CircularProgressbar {
-  /*
-   * This fixes an issue where the CircularProgressbar svg has
-   * 0 width inside a "display: flex" container, and thus not visible.
-   */
-  width: 4rem !important;
-  overflow: visible;
-  /*
-   * This fixes a centering issue with CircularProgressbarWithChildren:
-   * https://github.com/kevinsqi/react-circular-progressbar/issues/94
-   */
-  vertical-align: middle;
-}
-
-.CircularProgressbar .CircularProgressbar-path {
-  stroke: #3e98c7;
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.5s ease 0s;
-}
-
-.CircularProgressbar .CircularProgressbar-trail {
-  stroke: #d6d6d6;
-  /* Used when trail is not full diameter, i.e. when props.circleRatio is set */
-  stroke-linecap: round;
-}
-
-.CircularProgressbar .CircularProgressbar-text {
-  fill: #3e98c7;
-  font-size: 20px;
-  dominant-baseline: middle;
-  text-anchor: middle;
-}
-
-.CircularProgressbar .CircularProgressbar-background {
-  fill: #d6d6d6;
-}
-
-/*
- * Sample background styles. Use these with e.g.:
- *
- *   <CircularProgressbar
- *     className="CircularProgressbar-inverted"
- *     background
- *     percentage={50}
- *   />
- */
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
-  fill: #3e98c7;
-}
-
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
-  fill: #fff;
-}
-
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
-  stroke: #fff;
-}
-
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
-  stroke: transparent;
-}
-
 .CompactCard {
   display: flex;
   flex: 1;
@@ -18894,18 +18840,4 @@ textarea.form-control-lg {
 
 .CompactCard:hover {
   box-shadow: none;
-}
-
-.radialBar {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 1rem;
-}
-
-.CircularProgressbar-path {
-  stroke: white !important;
-  stroke-width: 12px !important;
-  filter: drop-shadow(2px 4px 6px white);
 }

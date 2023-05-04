@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { motion } from "framer-motion";
-import { CircularProgressbar } from 'react-circular-progressbar';
 
 const Card = (props) => {
 

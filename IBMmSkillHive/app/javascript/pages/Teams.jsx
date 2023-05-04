@@ -3,11 +3,9 @@ import { Link } from "react-router-dom";
 import Sidebar from '../components/Sidebar';
 
 export default () => (
-   <div className="background-s">
-        <div className="Glass">
-            <div className="Welcome">Teams</div>
-            <Sidebar/>
+    <div className="Glass">
+        <div className="Welcome">Teams</div>
+        <Sidebar/>
 
-        </div>
-   </div>
+    </div>
 );
