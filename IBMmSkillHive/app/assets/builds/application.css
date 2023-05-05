@@ -18761,7 +18761,7 @@ textarea.form-control-lg {
   transition: all 300ms ease;
   font-family: "IBM Plex Sans";
   font-style: normal;
-  font-weight: 120;
+  font-weight: 320;
   font-size: 5vw; /* use viewport width to make the font size responsive */
   line-height: 1.2; /* use a unitless value for line-height */
   letter-spacing: -0.01em;
