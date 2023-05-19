@@ -6,6 +6,7 @@ export default () => (
         <div className="Glass">
             <div className="Welcome">Goals</div>
             <Sidebar/>
+            
 
         </div>
 );

@@ -7,7 +7,10 @@ export default () => (
     <div className="Glass">
       <div className="Welcome">Dashboard</div>
       <Sidebar/>
-      <div className="tableau-container"> <TableauDashboard/></div>
-    
+      <div className="content">
+        <div className="tableau-container">
+           <TableauDashboard/>
+           </div>
+      </div>
       </div>
 );
