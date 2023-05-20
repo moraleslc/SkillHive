@@ -2,11 +2,21 @@ import React, { useState } from 'react';
 import {UilSignOutAlt} from '@iconscout/react-unicons'
 import {SidebarData} from "../Data/Data"
 import { Link } from 'react-router-dom';
+import {auth} from "../../../firebase";
+import { signOut } from 'firebase/auth';
+import { useNavigate } from 'react-router-dom';
 
 //"menuItem active" key={index} style={{ color: "white" }}>
 const Sidebar = () => {
 
     const [selected, setSelected] = useState(null)
+    const navigate = useNavigate();
+
+    const logOutHandler = async(event)=> {
+        event.preventDefault();
+        await signOut(auth);
+        navigate("/");
+    }
 
     return(
         <div className="Sidebar">
@@ -27,15 +37,16 @@ const Sidebar = () => {
                })}
                
                 <span></span>
-               <Link to = "/"
+               <div
                 className = "menuItem"
+                onClick={logOutHandler}
                 style={{ color: 'black', textDecoration: 'none'}}>
                    
                     <UilSignOutAlt></UilSignOutAlt>
                     <span>
                         Sign Out
                     </span>
-                </Link>
+                </div>
             </div>
             
         </div>

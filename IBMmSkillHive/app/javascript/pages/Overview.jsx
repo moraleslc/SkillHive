@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Sidebar from '../components/Sidebar';
 import MainDash from "../components/MainDash" ;
+import { auth } from "../../../firebase";
 
 export default () => (
     <div className="Glass">
-        <div className="Welcome">Welcome, Ms. Guadalupe</div>
+        <div className="Welcome">Welcome, {auth.currentUser.email}</div>
         <Sidebar/>
         <div className="content">   
             <div className="content-dashboard">

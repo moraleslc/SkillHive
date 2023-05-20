@@ -10,6 +10,7 @@
     "bootstrap-icons": "^1.10.4",
     "chart.js": "^4.3.0",
     "esbuild": "^0.17.18",
+    "firebase": "^9.22.0",
     "framer-motion": "^10.12.5",
     "mysql2": "^3.2.4",
     "react": "^18.2.0",

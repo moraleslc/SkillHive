@@ -5,6 +5,7 @@ import Dashboard from "../pages/Dashboard";
 import Overview from "../pages/Overview";
 import Goals from "../pages/Goals";
 import Teams from "../pages/Teams";
+
 export default (
   <Router>
     <Routes>

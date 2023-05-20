@@ -18598,12 +18598,10 @@ textarea.form-control-lg {
 
 .IBM-bee {
   position: absolute;
-  width: 550px;
-  height: 550px;
-  left: -20px;
-  top: 150 px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transform: rotate(44.89deg);
+width: 300px;
+height: 300px;
+left: 40px;
+top: 140px;
 }
 
 .SignIn-Box {
@@ -18683,6 +18681,18 @@ textarea.form-control-lg {
   border: #F8EBBD;
 }
 
+.Incorrect-user {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.64px;
+  position: absolute;
+  right: 350px;
+  top: 540px;
+  color: #AA2306;
+}
+
 .Menu {
   position: absolute;
   width: 20%;
@@ -18757,7 +18767,7 @@ textarea.form-control-lg {
   transition: all 300ms ease;
   font-family: "IBM Plex Sans";
   font-style: normal;
-  font-weight: 320;
+  font-weight: 120;
   font-size: 5vw; /* use viewport width to make the font size responsive */
   line-height: 1.2; /* use a unitless value for line-height */
   letter-spacing: -0.01em;
